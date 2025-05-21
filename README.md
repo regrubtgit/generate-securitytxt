@@ -4,7 +4,7 @@ When writing `Expires:` fields in a `security.txt` file (or any ISO 8601 timesta
 
 ---
 
-### 1. ISO 8601 Standard Compliance
+### ✅ 1. ISO 8601 Standard Compliance
 
 The ISO 8601 standard specifies that timestamps **must** use:
 - `Z` to represent UTC (also known as Zulu time), or
@@ -14,7 +14,7 @@ Using `"UTC"` is **not valid** in ISO 8601 format, and will be rejected by parse
 
 ---
 
-### 2. Machine Readability
+### ✅ 2. Machine Readability
 
 The `Z` character is:
 - **Short and unambiguous**
@@ -25,7 +25,7 @@ In contrast, `"UTC"` is ambiguous in ISO 8601 context and **not parseable** by s
 
 ---
 
-### 3. Origin of `Z` = Zulu Time
+### ✅ 3. Origin of `Z` = Zulu Time
 
 The letter `Z` comes from **Zulu Time**, a term used in:
 - **Aviation**
@@ -36,17 +36,17 @@ In the NATO phonetic alphabet, **"Z" = Zulu**, and Zulu Time refers to **UTC wit
 
 ---
 
-### Comparison Table
+### 🔍 Comparison Table
 
 | Notation   | Meaning             | ISO 8601 Valid | Valid in `security.txt` |
-|------------|---------------------|----------------|-------------------------|
-| `Z`        | UTC (Zulu Time)     | V              | V                       |
-| `UTC`      | UTC (literal string)| X              | X                       |
-| `+00:00`   | UTC (numeric offset)| V              | V                       |
+|------------|---------------------|----------------|--------------------------|
+| `Z`        | UTC (Zulu Time)     | ✅              | ✅                       |
+| `UTC`      | UTC (literal string)| ❌              | ❌                       |
+| `+00:00`   | UTC (numeric offset)| ✅              | ✅                       |
 
 ---
 
-### For `security.txt` Specifically
+### 📌 For `security.txt` Specifically
 
 According to [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116#section-2.5):
 
@@ -54,7 +54,7 @@ According to [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116#section-2.5):
 
 ---
 
-### Conclusion
+### ✅ Conclusion
 
 Always use `Z` when specifying UTC time in the `Expires:` field to ensure:
 
