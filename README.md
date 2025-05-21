@@ -85,11 +85,11 @@ In the NATO phonetic alphabet, **"Z" = Zulu**, and Zulu Time refers to **UTC wit
 
 ### 🔍 Comparison Table
 
-| Notation   | Meaning             | ISO 8601 Valid   | Valid in `security.txt`  |
-| :----------- | :------------------- | :-----------------: | :-------------------------:| 
-| `Z`        | UTC (Zulu Time)     | ✅              | ✅                       |
-| `UTC`      | UTC (literal string)| ❌              | ❌                       |
-| `+00:00`   | UTC (numeric offset)| ✅              | ✅                       |
+| Notation             | Meaning              | ISO 8601 Valid       | Valid in `security.txt` |
+| -------------------- | -------------------- | -------------------- | --------------------    | 
+| `Z`                  | UTC (Zulu Time)      |   ✅                 |          ✅            |
+| `UTC`                | UTC (literal string) |   ❌                |          ❌             |
+| `+00:00`             | UTC (numeric offset) |   ✅                |          ✅             |
 
 ---
 
