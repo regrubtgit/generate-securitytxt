@@ -1,0 +1,16 @@
+# security.txt
+# This file contains contact information for reporting security issues.
+
+Contact: security@sp.nl
+Expires: 2025-12-31:23:59:00Z
+Preferred-Languages: en, nl
+Canonical: https://sp.nl/.well-known/security.txt
+
+# Dutch:
+# We waarderen het als beveiligingsonderzoekers kwetsbaarheden op een
+# verantwoorde manier melden. Neem contact met ons op via de bovenstaande
+# contactinformatie.
+
+# English:
+# We appreciate responsible disclosure of security vulnerabilities.
+# Please contact us using the information provided above.
