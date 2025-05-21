@@ -45,13 +45,11 @@ Hiring: https://example.com/jobs
 # We appreciate responsible disclosure of security vulnerabilities.
 # Please contact us using the information provided above.
 
-# Additional an explanation why use Z-time (Zulu Time) 
+---
  
 ## Why Use `Z` Instead of `UTC` in `Expires:` Fields?
 
 When writing `Expires:` fields in a `security.txt` file (or any ISO 8601 timestamp), it’s important to use the letter `Z` to indicate **UTC time**, rather than writing "UTC". Here's why:
-
----
 
 ### ✅ 1. ISO 8601 Standard Compliance
 
