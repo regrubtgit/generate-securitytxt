@@ -1,3 +1,52 @@
+# 🔐 `generate-securitytxt.sh` Generator and Explanation
+
+Usage: generate_securitytxt.sh --help
+
+Don't forget to chmod +x to make is executable.
+
+
+---
+
+# 🔐 `security.txt` Generator and Explanation
+
+This documentation provides:
+
+- An example `security.txt` file in English and Dutch
+- Explanation of the `Expires:` field and why it uses the `Z` (Zulu time) notation
+- A Bash script to generate a `security.txt` file interactively
+- Recommended file permissions for `.well-known` and `security.txt`
+- A suggested open source license (MIT)
+- All formatted in English for international use
+
+---
+
+## 📄 Example `security.txt` File (Bilingual - Dutch and English)
+
+```txt
+# security.txt
+# This file contains contact information for reporting security issues.
+# Dit bestand bevat contactinformatie voor het melden van beveiligingsproblemen.
+
+Contact: mailto:security@example.com
+Expires: 2025-12-31T23:59:00Z
+Encryption: https://example.com/pgp-key.txt
+Acknowledgments: https://example.com/hall-of-fame
+Preferred-Languages: en, nl
+Canonical: https://example.com/.well-known/security.txt
+Policy: https://example.com/security-policy
+Hiring: https://example.com/jobs
+
+# Dutch:
+# We waarderen het als beveiligingsonderzoekers kwetsbaarheden op een
+# verantwoorde manier melden. Neem contact met ons op via de bovenstaande
+# contactinformatie.
+
+# English:
+# We appreciate responsible disclosure of security vulnerabilities.
+# Please contact us using the information provided above.
+
+# Additional an explanation why use Z-time (Zulu Time) 
+ 
 ## Why Use `Z` Instead of `UTC` in `Expires:` Fields?
 
 When writing `Expires:` fields in a `security.txt` file (or any ISO 8601 timestamp), it’s important to use the letter `Z` to indicate **UTC time**, rather than writing "UTC". Here's why:
