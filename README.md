@@ -1,13 +1,17 @@
-# 🔐 `generate-securitytxt.sh` Generator and Explanation
+# 🔐 Generator and Explanation
 
+## Shell script
 Usage: generate_securitytxt.sh --help
 
 Don't forget to chmod +x to make is executable.
 
+## Python script
+
+Usage:  python3 generate_securitytxt.py --help
 
 ---
 
-# 🔐 `security.txt` Generator and Explanation
+# 🔐 `security.txt` Generation and Explanation
 
 This documentation provides:
 
