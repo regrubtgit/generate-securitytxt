@@ -18,6 +18,7 @@ This documentation provides:
 - An example `security.txt` file in English and Dutch
 - Explanation of the `Expires:` field and why it uses the `Z` (Zulu time) notation
 - A Bash script to generate a `security.txt` file interactively
+- A Python(3) script to generate a `security.txt` file interactively
 - Recommended file permissions for `.well-known` and `security.txt`
 - A suggested open source license (MIT)
 - All formatted in English for international use
